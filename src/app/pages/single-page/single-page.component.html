@@ -1,0 +1,26 @@
+<div class="bgdark">
+  <h1 style="color: white; padding-left: 40px">{{ district[0].name }}</h1>
+  <div class="row" style="padding: 20px; justify-content: center">
+    <div
+      class="card bg-dark"
+      style="width: 500px; margin: 10px; margin-right: 20px"
+    >
+      <div class="card-body">
+        <p class="card-text" style="color: white; padding-top: 30px">
+          {{ district[0].content }}
+        </p>
+      </div>
+    </div>
+    <div
+      class="card bg-secondary"
+      style="width: 500px; height: 450px; margin: 10px; justify-content: center"
+    >
+      <img
+        style="background-color: rgb(0, 11, 11); filter: drop-shadow(0px 10px 4px black)"
+        src="{{ district[0].img }}"
+        class="img-fluid"
+        alt="..."
+      />
+    </div>
+  </div>
+</div>
